@@ -15,7 +15,7 @@ C:/Users/Harshid/CarParking
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65360
+64587
 Successfully changed project path to: C:/Users/Harshid/CarParking
 C:/Users/Harshid/CarParking
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Harshid/CarParking
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19156] Host "[IP] 26.163.76.87 [Port] 0 [Flags] 2 [Guid] 3051890756 [EditorId] 3051890756 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O0R14QM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30480] Host "[IP] 26.163.76.87 [Port] 0 [Flags] 2 [Guid] 594067164 [EditorId] 594067164 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O0R14QM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19156] Host "[IP] 26.163.76.87 [Port] 0 [Flags] 2 [Guid] 3051890756 [EditorId] 3051890756 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O0R14QM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30480] Host "[IP] 26.163.76.87 [Port] 0 [Flags] 2 [Guid] 594067164 [EditorId] 594067164 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O0R14QM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 169.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path D:/Unity Hub/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'D:/Unity Hub/2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity Hub/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity Hub/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity Hub/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/Unity Hub/2021.3.20f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004681 seconds.
+Registered in 0.035951 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 232.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.293 seconds
+- Completed reload, in  1.513 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1294ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (1513ms)
+		BeginReloadAssembly (569ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (980ms)
-			LoadAssemblies (136ms)
+		EndReloadAssembly (762ms)
+			LoadAssemblies (587ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (223ms)
+			SetupTypeCache (181ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (558ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (447ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (233ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008423 seconds.
+Registered in 0.014351 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.944 seconds
+- Completed reload, in  2.036 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2946ms)
-		BeginReloadAssembly (277ms)
+	ReloadAssembly (2037ms)
+		BeginReloadAssembly (326ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (2446ms)
-			LoadAssemblies (246ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1567ms)
+			LoadAssemblies (328ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (986ms)
+			SetupTypeCache (418ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (138ms)
-			SetupLoadedEditorAssemblies (978ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (786ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (296ms)
-				ProcessInitializeOnLoadAttributes (592ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (180ms)
+				ProcessInitializeOnLoadAttributes (550ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 37 unused Assets / (184.7 KB). Loaded Objects now: 3695.
 Memory consumption went from 199.4 MB to 199.2 MB.
-Total: 12.568100 ms (FindLiveObjects: 0.694500 ms CreateObjectMapping: 1.610500 ms MarkObjects: 9.965600 ms  DeleteObjects: 0.294300 ms)
+Total: 12.922000 ms (FindLiveObjects: 0.487800 ms CreateObjectMapping: 0.261500 ms MarkObjects: 10.172000 ms  DeleteObjects: 1.998700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,74 +167,2019 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 772097.409748 seconds.
-  path: Assets/Scripts/CarControllerScript.cs
-  artifactKey: Guid(b9f820c79d984c546b55cf08589fc0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CarControllerScript.cs using Guid(b9f820c79d984c546b55cf08589fc0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f4ecbd522fcced3710f39c4e68bc99') in 0.098319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.351376 seconds.
-  path: Assets/Scenes/SampleScene
-  artifactKey: Guid(8c94d6a73449fe14783a1dfa4879f381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene using Guid(8c94d6a73449fe14783a1dfa4879f381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c663518ab34dbabf6092a1365f0edc') in 0.036552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.163896 seconds.
-  path: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
-  artifactKey: Guid(4ec04b19399d6f7449e3d77592a95e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(4ec04b19399d6f7449e3d77592a95e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c98f6a7564e4d7468557117d7ceb2fc') in 1.421509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Scenes/SampleScene/OcclusionCullingData.asset
-  artifactKey: Guid(56bcd259d169fac468d3a9b7d55a6816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/OcclusionCullingData.asset using Guid(56bcd259d169fac468d3a9b7d55a6816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ed1aa96f435d656a3f759cfed10410') in 0.074847 seconds 
+  Time since last request: 859298.856696 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/sedan-car-01.fbx
+  artifactKey: Guid(d1e985c0fb2658c4bb66c0dd53fe253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Cars/Sedan-car-01/sedan-car-01.fbx using Guid(d1e985c0fb2658c4bb66c0dd53fe253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bad4408e44f3f07a6df0a25d020056') in 0.917603 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009880 seconds.
+Registered in 0.014667 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.208 seconds
+- Completed reload, in  2.553 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2210ms)
-		BeginReloadAssembly (330ms)
+	ReloadAssembly (2555ms)
+		BeginReloadAssembly (734ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1651ms)
+			LoadAssemblies (685ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (505ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (749ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (565ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3205 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (151.3 KB). Loaded Objects now: 3722.
+Memory consumption went from 203.9 MB to 203.8 MB.
+Total: 6.007300 ms (FindLiveObjects: 0.557500 ms CreateObjectMapping: 0.256300 ms MarkObjects: 4.911500 ms  DeleteObjects: 0.280100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 316.474475 seconds.
+  path: Assets/Final Form Studio
+  artifactKey: Guid(ea49139893cf79943adfdaa4943658b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio using Guid(ea49139893cf79943adfdaa4943658b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044244dcfe2dc1f7ba9fca54f8e637c5') in 0.020396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.118551 seconds.
+  path: Assets/Final Form Studio/Cliff-scene
+  artifactKey: Guid(79f47ec4e4bec4943a10fa54e9468204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene using Guid(79f47ec4e4bec4943a10fa54e9468204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce087cb5dac9c92aab889314ec001c1') in 0.012392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.100968 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/SampleScene.unity
+  artifactKey: Guid(cbfe36cfddfde964d9dfce63a355d5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/SampleScene.unity using Guid(cbfe36cfddfde964d9dfce63a355d5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f6ef87bcac3aa3b0a8dbd60d3fdd9b') in 0.009225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154.078618 seconds.
+  path: Assets/Car/BuggyRed.fbx
+  artifactKey: Guid(912ccaa2aebfd4c40946de2872248ce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/BuggyRed.fbx using Guid(912ccaa2aebfd4c40946de2872248ce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '193eba21e642d50ee246e4230bc15453') in 0.547937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Corner 1.dae
+  artifactKey: Guid(73b78b99c269f4e4982b125270a38b14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Corner 1.dae using Guid(73b78b99c269f4e4982b125270a38b14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '438e8c3e1c1fc9f6ed03cd27459d0c19') in 0.062642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/SampleScene.unity
+  artifactKey: Guid(cbfe36cfddfde964d9dfce63a355d5dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/SampleScene.unity using Guid(cbfe36cfddfde964d9dfce63a355d5dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f65f68b398ecefa91e788600d225aba') in 0.024232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(ab22abee4a397554a8f7bfef1e084bd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr using Guid(ab22abee4a397554a8f7bfef1e084bd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c078f438fde118b1fe5dbfd8a1e45569') in 0.139724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Cross Freeway.dae
+  artifactKey: Guid(0505729b78e21cd4487c9a4940bea4db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Cross Freeway.dae using Guid(0505729b78e21cd4487c9a4940bea4db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a135f05ff6478c0419be539614f666f3') in 0.046348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Curve 1.dae
+  artifactKey: Guid(aebfc22149f8d2a45a601caf54845bba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Curve 1.dae using Guid(aebfc22149f8d2a45a601caf54845bba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65f3e17c8132bf5b65885ecb213385d4') in 0.064593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(4ec04b19399d6f7449e3d77592a95e52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(4ec04b19399d6f7449e3d77592a95e52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fd8c7e13c0540f0e2a053d3bc49b49d') in 0.055199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Car/materialscar/Spoiler.mat
+  artifactKey: Guid(920d36ac9a4387a4ab27b6533d77db8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/materialscar/Spoiler.mat using Guid(920d36ac9a4387a4ab27b6533d77db8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd537cf670efc22bc638503a6944b01ec') in 0.031549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Cross Highway.dae
+  artifactKey: Guid(9737ab9f3cf9c0b4d87af4f5b0108b28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Cross Highway.dae using Guid(9737ab9f3cf9c0b4d87af4f5b0108b28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '609b0713662eb64250c584dbf1ede7c3') in 0.069840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Car/materialscar/Tire.001.mat
+  artifactKey: Guid(cbf48440e67e273438031bc172e6e573) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/materialscar/Tire.001.mat using Guid(cbf48440e67e273438031bc172e6e573) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7756972958ed25d92c8d0a4abda3e9a5') in 0.022687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Freeway 1.prefab
+  artifactKey: Guid(0956ca3f790e2b44eabfe04ddcb999f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Freeway 1.prefab using Guid(0956ca3f790e2b44eabfe04ddcb999f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e9d01ee8ea12a3d99af9453bc3c21da') in 0.035999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Cross Road.prefab
+  artifactKey: Guid(7ff5db574d5d2df479ee7bae7f713787) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Cross Road.prefab using Guid(7ff5db574d5d2df479ee7bae7f713787) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '739ca4637931ef4dd952ce0ec1c9174a') in 0.062359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 2.dae
+  artifactKey: Guid(306a3142baf3c0f48acf183ab9a53a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 2.dae using Guid(306a3142baf3c0f48acf183ab9a53a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '555bd5a30a47e5385f64dbc7d9f82c8c') in 0.174398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Entrance.dae
+  artifactKey: Guid(c123f92dda3cc22459ede19497c88734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Entrance.dae using Guid(c123f92dda3cc22459ede19497c88734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c5c7e4d960b734785e39e60c8ad8e26') in 0.086716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Straight 1.dae
+  artifactKey: Guid(d515ab1e7b3b8254b942625c58c86f91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Straight 1.dae using Guid(d515ab1e7b3b8254b942625c58c86f91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55090744785e8525fa0489180d7569f5') in 0.118846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Straight 1.prefab
+  artifactKey: Guid(ad182cc030f80d2418924040efeaaedb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Straight 1.prefab using Guid(ad182cc030f80d2418924040efeaaedb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14966950119df8b4333816e2721c52e9') in 0.079191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 2.dae
+  artifactKey: Guid(df7aef7b3f5b34f438e1f16d9f25c832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 2.dae using Guid(df7aef7b3f5b34f438e1f16d9f25c832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85141580337e55c65a43ee5ab31ce9f6') in 0.094274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Road.dae
+  artifactKey: Guid(0c21f7d1828800d44a5452b9bca476f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Road.dae using Guid(0c21f7d1828800d44a5452b9bca476f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cf2961c5d6f1da45533f1aa5d6bd86c') in 0.061548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Road Cross Road.dae
+  artifactKey: Guid(8a74d4154e3078a498c1bf96dc3d1660) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Road Cross Road.dae using Guid(8a74d4154e3078a498c1bf96dc3d1660) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e300e70bb0ab4f186c3f6bd1560dd6ad') in 0.052169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 2.mat
+  artifactKey: Guid(1968bf9d74d362c408b28c15132baaaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 2.mat using Guid(1968bf9d74d362c408b28c15132baaaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb939ec19571da713895b087a9e52d86') in 0.048478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Road Join Road.dae
+  artifactKey: Guid(1869066258e66524dabd0031005b03ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Road Join Road.dae using Guid(1869066258e66524dabd0031005b03ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92cb41a4d511061a6684fa819a1c2159') in 0.078521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 1.prefab
+  artifactKey: Guid(b5baae8b9b6343c4484a2886ccff5179) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 1.prefab using Guid(b5baae8b9b6343c4484a2886ccff5179) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '227d24c5e56b0edf55c782da6626e334') in 0.052242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Freeway.prefab
+  artifactKey: Guid(d1e269106cb165145985fd4f36cd816f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Freeway.prefab using Guid(d1e269106cb165145985fd4f36cd816f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5252039ea875a2c3185069e84d262cbc') in 0.042820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Terrain/New Terrain.asset
+  artifactKey: Guid(75979524ddd8f7d4597d81e0391afc42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Terrain/New Terrain.asset using Guid(75979524ddd8f7d4597d81e0391afc42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3e2289181cf5e22bf09eeb7294e664e') in 0.105909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '560b6d5e6a0076ee05fc00480ec6652b') in 0.024331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Car 2.prefab
+  artifactKey: Guid(8a6f09027b5c26b4b8d2f6d00dbce6d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Car 2.prefab using Guid(8a6f09027b5c26b4b8d2f6d00dbce6d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4d006a7628add535b004f3de8ad68a3') in 0.033933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Bridge 1.prefab
+  artifactKey: Guid(8d7240f2f0843e442b11595c5465dbf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Bridge 1.prefab using Guid(8d7240f2f0843e442b11595c5465dbf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e70c60d5bead44d779281fe6bf5382c') in 0.055597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Cross Freeway.prefab
+  artifactKey: Guid(67b75b5f8253ef64c9aaab70b17ec06e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Cross Freeway.prefab using Guid(67b75b5f8253ef64c9aaab70b17ec06e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44603704a5635cae65370d974d3b3254') in 0.058123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Car/materialscar/Exhaust.mat
+  artifactKey: Guid(4af74ef135f0cb94ba5151a88595cef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/materialscar/Exhaust.mat using Guid(4af74ef135f0cb94ba5151a88595cef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59045bcd987a55964ec2962f13bf961d') in 0.023259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Light/New Lighting Settings - Copy.lighting
+  artifactKey: Guid(a2f35b69c7c86474c9795ace3a0c0530) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Light/New Lighting Settings - Copy.lighting using Guid(a2f35b69c7c86474c9795ace3a0c0530) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 2.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e6819cf48cfd9a94e0784a67bf82810') in 0.058222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Road Join Road.prefab
+  artifactKey: Guid(c5fef14080d92e1448368c964f4f1552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Road Join Road.prefab using Guid(c5fef14080d92e1448368c964f4f1552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c3e2f962acb53d1bc21b4bc50a9a20e') in 0.051149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Road Join SIngleLane.prefab
+  artifactKey: Guid(8820d45b6122a1a44b6d1a75e97a5127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Road Join SIngleLane.prefab using Guid(8820d45b6122a1a44b6d1a75e97a5127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80bef108d8d77549ea226a07e147b91f') in 0.086238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Edge 1.prefab
+  artifactKey: Guid(3851756c71fc60741a0f9a8b4cf1a908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Edge 1.prefab using Guid(3851756c71fc60741a0f9a8b4cf1a908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af8e8b87a02b62344b26b0beb37d30ee') in 0.049281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Entrance.prefab
+  artifactKey: Guid(60eed786d7a83604ea71df548e30b85f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Entrance.prefab using Guid(60eed786d7a83604ea71df548e30b85f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c8f8f5eefb347160664dea8986fc04f') in 0.033617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Edge 2.prefab
+  artifactKey: Guid(7df4389373e28db469018e35144066e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Edge 2.prefab using Guid(7df4389373e28db469018e35144066e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '098c5ac6ba2ddd23970e0bbefcfaa770') in 0.035312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Car/materialscar/Tread.001.mat
+  artifactKey: Guid(ec3402eca26220e42a7b92c0d807220a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/materialscar/Tread.001.mat using Guid(ec3402eca26220e42a7b92c0d807220a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '838c5e46d705d53b3ee2d8d228fce704') in 0.030703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 2.dae
+  artifactKey: Guid(f05a64e3c823b5247ad0f4f8f37f52f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 2.dae using Guid(f05a64e3c823b5247ad0f4f8f37f52f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28c6c509958d46643bce1aca82032c37') in 0.044532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Car 1.dae
+  artifactKey: Guid(26e8d194fbf5bca409d8e2a931e7a028) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Car 1.dae using Guid(26e8d194fbf5bca409d8e2a931e7a028) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d0958e9dbe07fac8868a436ffe73c1f') in 0.063135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 1.dae
+  artifactKey: Guid(71a6712b53f17d642b18dd7dd3873131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 1.dae using Guid(71a6712b53f17d642b18dd7dd3873131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de271ff929e481687fd44d1e26be0f1c') in 0.059259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Tunnel Curve.prefab
+  artifactKey: Guid(72e0f34fa25621649ab63b1abedef4d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Tunnel Curve.prefab using Guid(72e0f34fa25621649ab63b1abedef4d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '432360b6c1a9ad84bb2ea300b4d96216') in 0.053307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Textures/Car Colorscheme 1.png
+  artifactKey: Guid(c345e8b354c41dd4287a1f319bb8bb8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Textures/Car Colorscheme 1.png using Guid(c345e8b354c41dd4287a1f319bb8bb8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29718eb9c886c2776b9e6cb654b8a1c3') in 0.064669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Road Straight 2.dae
+  artifactKey: Guid(23337dac036abd34499f9f5131a19858) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Road Straight 2.dae using Guid(23337dac036abd34499f9f5131a19858) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c01bbd9565f6b6b0aa42b82540697d3') in 0.037761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Road Straight 1.dae
+  artifactKey: Guid(b4923c0dba942fa43a6c6e6831a89113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Road Straight 1.dae using Guid(b4923c0dba942fa43a6c6e6831a89113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0415758cf330e1e527388b744395793c') in 0.064389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 1.prefab
+  artifactKey: Guid(66ec34d11111716468cb9de6c840b423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 1.prefab using Guid(66ec34d11111716468cb9de6c840b423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27ae76d173de13f2b420b744ff3dcb1b') in 0.037639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Car/materialscar/Hand.mat
+  artifactKey: Guid(ec4c0518b32fb9f43b3f6adb9439319b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/materialscar/Hand.mat using Guid(ec4c0518b32fb9f43b3f6adb9439319b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b0db8d4e89f425bb22357299df1f8a7') in 0.036893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Road Curve.prefab
+  artifactKey: Guid(834e3b05077e0b445961489bb25da1c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Road Curve.prefab using Guid(834e3b05077e0b445961489bb25da1c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62c139c452c4a761a5f9dd618784f99e') in 0.054394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Road Straight 3.prefab
+  artifactKey: Guid(43678520060fa5e42add8825ab61da06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Road Straight 3.prefab using Guid(43678520060fa5e42add8825ab61da06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f05f6c6413bf0548fc6a0b547d173b2') in 0.030917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Road.prefab
+  artifactKey: Guid(517cd28356a64ae4ca59346763bafa76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Road.prefab using Guid(517cd28356a64ae4ca59346763bafa76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3ba646baa27844568b7b3cfe26e9116') in 0.034538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway S-Curve.dae
+  artifactKey: Guid(901bb15896c0ed444a89af207f0d0ffe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway S-Curve.dae using Guid(901bb15896c0ed444a89af207f0d0ffe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f35994e80e7b10ebd62c99f397cf1dd') in 0.067233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/mirrors 1.mat
+  artifactKey: Guid(695a1682a62613048adef1406f75e46c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/mirrors 1.mat using Guid(695a1682a62613048adef1406f75e46c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca0b5e10db1bd5d677a6b71bb02a6430') in 0.043513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/body.mat
+  artifactKey: Guid(5f3d4d43692374d4483870f8bb47d4d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/body.mat using Guid(5f3d4d43692374d4483870f8bb47d4d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca506c93b40c798f161f107d8115bbe0') in 0.029850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Car/materialscar/base.mat
+  artifactKey: Guid(420d6853eed791245a9f517f6be557e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/materialscar/base.mat using Guid(420d6853eed791245a9f517f6be557e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6043271660b3919b17ba9e7b05eabe59') in 0.027939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/leds_f.mat
+  artifactKey: Guid(f12f236744acc2143adc08861852c06d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/leds_f.mat using Guid(f12f236744acc2143adc08861852c06d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd4a0224e527d7f5999b73a53c2cb4b5') in 0.030919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 3.prefab
+  artifactKey: Guid(baf7bb04094c1fe4d994d728999eae1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 3.prefab using Guid(baf7bb04094c1fe4d994d728999eae1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8845707e06533543ae927f24b1b0c346') in 0.066972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Car/materialscar/plastic.mat
+  artifactKey: Guid(2cc5ff95cbc95b84fb05efcc7e566f8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/materialscar/plastic.mat using Guid(2cc5ff95cbc95b84fb05efcc7e566f8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e18d2f074882d519e21d22b629d0c50') in 0.040490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Car/materialscar/RIMinterior.mat
+  artifactKey: Guid(a093888b682bad1428463d7fb83d85f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/materialscar/RIMinterior.mat using Guid(a093888b682bad1428463d7fb83d85f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '317746902d37b08591150c7fe7bf8d6f') in 0.039228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Straight 3.dae
+  artifactKey: Guid(236b6964c04aad0409d80ab50c92d8d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Straight 3.dae using Guid(236b6964c04aad0409d80ab50c92d8d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e1327d3b8cda39cd24489a6ec30ddae') in 0.063540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Freeway 2.prefab
+  artifactKey: Guid(409109bbaa58cf340b5fea204e6aac85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Freeway 2.prefab using Guid(409109bbaa58cf340b5fea204e6aac85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e428ff33bc32ff752661980b22192960') in 0.043973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Curve 1.prefab
+  artifactKey: Guid(6373f7d3f749b254081c2c8c9372face) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Curve 1.prefab using Guid(6373f7d3f749b254081c2c8c9372face) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08b525b8b30b1a44b7bd685c80ef3dd9') in 0.049882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(e8a636f62116c0a40bbfefdf876d4608) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Scripts/SimpleCameraController.cs using Guid(e8a636f62116c0a40bbfefdf876d4608) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0fc155f23720eacec174bcfa105150c') in 0.041687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Settings/VolumeSettings.asset
+  artifactKey: Guid(dab0766de4a4b5349b80ce1a86555414) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Settings/VolumeSettings.asset using Guid(dab0766de4a4b5349b80ce1a86555414) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27c4e7f4c293bd2c0d28c640f7f0c9ed') in 0.038908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Road.dae
+  artifactKey: Guid(55ffdfe2a9a2b114ab2e38301ab3c96a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Road.dae using Guid(55ffdfe2a9a2b114ab2e38301ab3c96a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84d61300da3efe6c9df55ef08e9cea60') in 0.059348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/orange_lights 1.mat
+  artifactKey: Guid(7cfc3c454f5713f409a6bb212ff658cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/orange_lights 1.mat using Guid(7cfc3c454f5713f409a6bb212ff658cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4ea31057dd46c69d0b825f5be4b40e1') in 0.041317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Car/Car3.prefab
+  artifactKey: Guid(bd4acafa81e19b749abfa897c6cfe05d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Car3.prefab using Guid(bd4acafa81e19b749abfa897c6cfe05d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fda404e23f25f02232670c0dd5190aa1') in 0.021247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Car/materialscar/Material.002 1.mat
+  artifactKey: Guid(4dd7b65c0cbfe384d88ede19c097a204) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/materialscar/Material.002 1.mat using Guid(4dd7b65c0cbfe384d88ede19c097a204) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b17d0421fffc958554fd9819566a5f5') in 0.032310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Lift Highway.prefab
+  artifactKey: Guid(401d27194e0344948b125cf0483f7637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Lift Highway.prefab using Guid(401d27194e0344948b125cf0483f7637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87952f5cf306b01cab41e46bb476ede7') in 0.042015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Cross SingleLane.prefab
+  artifactKey: Guid(4ad77816d1959bd49a799a1fdeb67987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Cross SingleLane.prefab using Guid(4ad77816d1959bd49a799a1fdeb67987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '590e16705269c88a9e288cd5b0ae2011') in 0.095605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Car/icosphere.fbx
+  artifactKey: Guid(07c815cd4d51c96489d104892904a728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/icosphere.fbx using Guid(07c815cd4d51c96489d104892904a728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16fa909a281bd6085a0b4b10b017066b') in 0.132490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.007.dae
+  artifactKey: Guid(3e00f6b092fa0844290d6e031b6aa3db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.007.dae using Guid(3e00f6b092fa0844290d6e031b6aa3db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2b554e8cd07235d3c0baa12b9da0e98') in 0.050633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.001.dae
+  artifactKey: Guid(5040aa18d61033e489ea9265c4f2cca4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.001.dae using Guid(5040aa18d61033e489ea9265c4f2cca4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd93030537c19e1f59a43bf37f3899ac') in 0.055487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.013.dae
+  artifactKey: Guid(facee1ea21c798142b0bbba6183d9d69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.013.dae using Guid(facee1ea21c798142b0bbba6183d9d69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69b42b554509a60128b25d61fb80941c') in 0.055450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.003.dae
+  artifactKey: Guid(b2458df65032dda41b5421b69f657d9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.003.dae using Guid(b2458df65032dda41b5421b69f657d9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2aa8cae598d9679acee1ffcdc541c19d') in 0.073646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Join SingleLane.prefab
+  artifactKey: Guid(82697fef831cee04ab4411218e725f9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Join SingleLane.prefab using Guid(82697fef831cee04ab4411218e725f9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4357eb3513f26e2f63ebc286d730a115') in 0.035106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.004.dae
+  artifactKey: Guid(f9b12965751b78e4d807b064d0420bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.004.dae using Guid(f9b12965751b78e4d807b064d0420bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be3a2bfba65ec0e7dbac4492aa91f100') in 0.060510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Corner 2.dae
+  artifactKey: Guid(e7dfa1315d7d3164fb4e39956f2357ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Corner 2.dae using Guid(e7dfa1315d7d3164fb4e39956f2357ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '429317f63e4197bec82a2125d8908f81') in 0.056268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/prefab/sedan-car-01.prefab
+  artifactKey: Guid(5e1f1e4eda7b3f84a95afae22bd7c87e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/prefab/sedan-car-01.prefab using Guid(5e1f1e4eda7b3f84a95afae22bd7c87e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3217678d5ad246b1ec44628dba87496c') in 0.056977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/materials_textures/sedan-car-01.png
+  artifactKey: Guid(1bf763cfac8bff74d9dc6bf34a84313c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/materials_textures/sedan-car-01.png using Guid(1bf763cfac8bff74d9dc6bf34a84313c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9807928f243230264bba25bc59624e2b') in 0.080685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Car/materialscar/BrakeDisk.001.mat
+  artifactKey: Guid(020fd89317f367544aee332d0d2639cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/materialscar/BrakeDisk.001.mat using Guid(020fd89317f367544aee332d0d2639cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7432fc4df951139215ccab5c500a0d5') in 0.028081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Car/Cars/_common-textures/tire_diffuse.png
+  artifactKey: Guid(3214a9cd8ff207446951e63707ca0d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/_common-textures/tire_diffuse.png using Guid(3214a9cd8ff207446951e63707ca0d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c80ce3549607794c3c9a052b0749a87') in 0.045615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 3.dae
+  artifactKey: Guid(6b8e147014e34144f90043861e0abe99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 3.dae using Guid(6b8e147014e34144f90043861e0abe99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cce4f5ddb615639bf02b1e4cf95b5ae') in 0.046485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 3.prefab
+  artifactKey: Guid(27efc696dd4698a43a8c68ebcf493a87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 3.prefab using Guid(27efc696dd4698a43a8c68ebcf493a87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fd4f4438dd4a69efcef25d51a00b468') in 0.031928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Straight 1.prefab
+  artifactKey: Guid(9b0c19ad39b17024baf069bf79a4f7c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Straight 1.prefab using Guid(9b0c19ad39b17024baf069bf79a4f7c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e389fab9fe6d86e73ac9239538bb8a50') in 0.056460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Car/Cars/_common-textures/white-lights.mat
+  artifactKey: Guid(2293ba2c3f385a046b10ac966bf8c75c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/_common-textures/white-lights.mat using Guid(2293ba2c3f385a046b10ac966bf8c75c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe3431ceaee94b9b442a242e81f11d77') in 0.031783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane S-Curve.prefab
+  artifactKey: Guid(5d8d2fcae15c57f46b59943e3db78e5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane S-Curve.prefab using Guid(5d8d2fcae15c57f46b59943e3db78e5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03d2e1024c1d2502f90a962552cde08f') in 0.052375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/date palm leaf.png
+  artifactKey: Guid(829c896c9493e5048beb36fb6acda24d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/date palm leaf.png using Guid(829c896c9493e5048beb36fb6acda24d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31272d7ad97accb5b3518fb4fac01fad') in 0.052839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/palm02_s.png
+  artifactKey: Guid(748f50f580180334f8812cac7a13b2c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/palm02_s.png using Guid(748f50f580180334f8812cac7a13b2c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '618b86c875c733f532ca4ccd09c3d456') in 0.073466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway S-Curve.dae
+  artifactKey: Guid(a6f8c6c7f9b109c45b54b4ea3ab2256b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway S-Curve.dae using Guid(a6f8c6c7f9b109c45b54b4ea3ab2256b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8be736c054713b5a18a2e453cdd7c12f') in 0.095071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Car/Cars/_common-textures/tire-brakes.mat
+  artifactKey: Guid(b40303d08e22be84692b66af1fb48510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/_common-textures/tire-brakes.mat using Guid(b40303d08e22be84692b66af1fb48510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd63f6b9756c644a9902adb1ebfcfd92b') in 0.043942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/palm02_n.png
+  artifactKey: Guid(f365b4a16608bae4da3e6ead54169e41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/palm02_n.png using Guid(f365b4a16608bae4da3e6ead54169e41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3cfd184f1d067e0deb3b84e76f131bd') in 0.065878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Car/Cars/_common-textures/glass.mat
+  artifactKey: Guid(ae620c4242c52604592822d3e95e7c69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/_common-textures/glass.mat using Guid(ae620c4242c52604592822d3e95e7c69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf142de1c25e41d6baa0f038fdaa1321') in 0.052750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Settings/VolumeSettings_Baking.asset
+  artifactKey: Guid(112daeb737097bd42b9690c053885531) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Settings/VolumeSettings_Baking.asset using Guid(112daeb737097bd42b9690c053885531) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69c1dd8e5d9ecc46adf4cf575abb2e0b') in 0.019271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/materials_textures/rim.mat
+  artifactKey: Guid(de0556ea9a737764795a1577ea8a960c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/materials_textures/rim.mat using Guid(de0556ea9a737764795a1577ea8a960c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a43f49447a1cc64c81a25026263fbf4') in 0.022316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/date palm leaf_t.png
+  artifactKey: Guid(ec34630d4d1e53845800357d80605131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/date palm leaf_t.png using Guid(ec34630d4d1e53845800357d80605131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cf98396670deedbae429e1f9b1780f1') in 0.038950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/palm02.png
+  artifactKey: Guid(8af4a107ce553754996bb464b87c450e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/palm02.png using Guid(8af4a107ce553754996bb464b87c450e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30a1fa3d9e4656ce7d9d4acbb28148aa') in 0.034517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/hl_glass 1.mat
+  artifactKey: Guid(ee00d3f6937e76843859f14a94980f31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/hl_glass 1.mat using Guid(ee00d3f6937e76843859f14a94980f31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8de6ccc06c745d03053209497db604d7') in 0.021330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Textures/Car Colorscheme 2.png
+  artifactKey: Guid(1eaa27659b24fe447ace162f9058044a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Textures/Car Colorscheme 2.png using Guid(1eaa27659b24fe447ace162f9058044a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec5e9478ba7f06c028fcffdfd66e50e5') in 0.032657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/materials_textures/rim-albedo.png
+  artifactKey: Guid(23ca3f9ce212d644dabeb5684bd113ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/materials_textures/rim-albedo.png using Guid(23ca3f9ce212d644dabeb5684bd113ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fa11b5462e3c492fa371d324c47a19e') in 0.040532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/road-met.png
+  artifactKey: Guid(e8442cc21e467e0428bd7cc5bc8323ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/road-met.png using Guid(e8442cc21e467e0428bd7cc5bc8323ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8aefe4c7a01b21cb20923cc47671e92f') in 0.079822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/date palm leaf_n.png
+  artifactKey: Guid(060e624f773fbfb4b85118fd8d691ae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/date palm leaf_n.png using Guid(060e624f773fbfb4b85118fd8d691ae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c826e373df54ca8344ecfffea301fa9a') in 0.042674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/rocks1_MetallicSmoothness.png
+  artifactKey: Guid(41a41f92bf9977643a88d2b898779140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/rocks1_MetallicSmoothness.png using Guid(41a41f92bf9977643a88d2b898779140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c321c422c0d6d8f9896769f6c7631988') in 0.034505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Road Looping.prefab
+  artifactKey: Guid(ecf4e1c9068d83f4d9d991b1c0903616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Road Looping.prefab using Guid(ecf4e1c9068d83f4d9d991b1c0903616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0641a37455fa1541750cb780a2a23e64') in 0.024816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Presets/UtilityTexture.preset
+  artifactKey: Guid(9303d565bd8aa6948ba775e843320e4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Presets/UtilityTexture.preset using Guid(9303d565bd8aa6948ba775e843320e4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7839e20264aa82e1c72a41e24fed581e') in 0.021597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/windows.mat
+  artifactKey: Guid(b1a06bb6168a99c43822d46d4e23cd01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/windows.mat using Guid(b1a06bb6168a99c43822d46d4e23cd01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75a740d86c0fc8fb9af4ceef47113c99') in 0.021580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/rocks1_AlbedoTransparency.png
+  artifactKey: Guid(0ec350594a16a95408d3d326d90e4d6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/rocks1_AlbedoTransparency.png using Guid(0ec350594a16a95408d3d326d90e4d6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93fefa730ba2c5a4d9260be30c0d541e') in 0.042167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/Desertsand_MetallicSmoothness.png
+  artifactKey: Guid(67a59e3bc38572646955de4ba839c8e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/Desertsand_MetallicSmoothness.png using Guid(67a59e3bc38572646955de4ba839c8e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e0b54eb55998a31a4bed0b6e50b2579') in 0.037631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/desert-cliff-albedo.png
+  artifactKey: Guid(205ad5394bfdf964ea831ef0b32af3b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/desert-cliff-albedo.png using Guid(205ad5394bfdf964ea831ef0b32af3b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '237213c8f0c957baa8b29b5c1ef47aa3') in 0.045661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/materials_textures/Materials/rim-albedo.mat
+  artifactKey: Guid(7cd178c6e13613a4d93a9aa7ab1c6f40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/materials_textures/Materials/rim-albedo.mat using Guid(7cd178c6e13613a4d93a9aa7ab1c6f40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2a7aea8143dcc9dd6775bd210e5018f') in 0.031530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/water.png
+  artifactKey: Guid(8e3ef808a1e91dd419205ce25caea333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/water.png using Guid(8e3ef808a1e91dd419205ce25caea333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4bf8db483e861c272428d09049fcb0ed') in 0.056057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/New Material.mat
+  artifactKey: Guid(ae40bc4e1ca41244ab8abd191c8c463d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/New Material.mat using Guid(ae40bc4e1ca41244ab8abd191c8c463d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce1d37d4f02c59ceb0e0f47d53865068') in 0.025718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/Desertsand_AlbedoTransparency.png
+  artifactKey: Guid(e019622ce08f8534c99ae5676b74ab68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/Desertsand_AlbedoTransparency.png using Guid(e019622ce08f8534c99ae5676b74ab68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '901dbb8c28cb71280c79f6ddae5c4eb7') in 0.044901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/water.mat
+  artifactKey: Guid(c0c356e2fc8e5f643ae41a7e4d23f9f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/water.mat using Guid(c0c356e2fc8e5f643ae41a7e4d23f9f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b049856d736582fcb0f60a496a5ef0dd') in 0.024667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Prefabs/palm1.prefab
+  artifactKey: Guid(392e758841337e441bb7d4a4d400c140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Prefabs/palm1.prefab using Guid(392e758841337e441bb7d4a4d400c140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae5325eb862bc2c075b3abe36a1609ef') in 0.039967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Meshes/rock1_b.FBX
+  artifactKey: Guid(7ff606f7f5f9949408508e230019cc67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Meshes/rock1_b.FBX using Guid(7ff606f7f5f9949408508e230019cc67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81775a0d59b967ae1ae71f86169feeba') in 0.090340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Prefabs/rock1_c.prefab
+  artifactKey: Guid(75dd5ac51031f524bbeeecc79e2fd8a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Prefabs/rock1_c.prefab using Guid(75dd5ac51031f524bbeeecc79e2fd8a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '926ebc43d0f1dae48cfc5c1b35a60e3e') in 0.026269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/desertrock_AlbedoTransparency.png
+  artifactKey: Guid(cc8107d6b0a33a344882a4b731444947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/desertrock_AlbedoTransparency.png using Guid(cc8107d6b0a33a344882a4b731444947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80c95dda6fec53da04038ee3533f22bf') in 0.054203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Prefabs/cliff.prefab
+  artifactKey: Guid(d65cea9e9c9104045bf93360db6bfc90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Prefabs/cliff.prefab using Guid(d65cea9e9c9104045bf93360db6bfc90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28541d93c18af87f873d0ee71fdede76') in 0.029112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/desert-rock.terrainlayer
+  artifactKey: Guid(c4a2577ebb1220242afa6a5232078288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/desert-rock.terrainlayer using Guid(c4a2577ebb1220242afa6a5232078288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4779f2301de202c1a273d7cc19b6d6d6') in 0.047616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/water-norm.png
+  artifactKey: Guid(190e1b36384a1d14786158a403389a1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/water-norm.png using Guid(190e1b36384a1d14786158a403389a1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47d3122c1b6eea6ee83a214a200fd0ee') in 0.049767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 2.prefab
+  artifactKey: Guid(260ff3c3667b2bd4f82382b31d2ef823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 2.prefab using Guid(260ff3c3667b2bd4f82382b31d2ef823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa4172c53888a6c2288b38c2d19e5ffb') in 0.037867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway S-Curve.prefab
+  artifactKey: Guid(b21431263a66fd84ebb8c5a9f3e51709) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway S-Curve.prefab using Guid(b21431263a66fd84ebb8c5a9f3e51709) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3544ada63f9bf6b42de299c59b75a93c') in 0.024761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.006.dae
+  artifactKey: Guid(f366ec1535b72a841ac031961d69f6e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.006.dae using Guid(f366ec1535b72a841ac031961d69f6e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f12d35bf0e08253cfe7e3d6b13e1a7ae') in 0.048774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/materials_textures/body-color.mat
+  artifactKey: Guid(40430770f4a9ba248b77f7117b72b256) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/materials_textures/body-color.mat using Guid(40430770f4a9ba248b77f7117b72b256) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d48283d4fb1614a07e9705ddd2d8885') in 0.021163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Light/New Lighting Settings.lighting
+  artifactKey: Guid(4d6e32af6f423f6458827c4b959569ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Light/New Lighting Settings.lighting using Guid(4d6e32af6f423f6458827c4b959569ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9904ff5185d8b2358efb13948f55f801') in 0.054442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/umhlanga_sunrise_4k.hdr
+  artifactKey: Guid(f514e912e20a3764496f3f0ced5fcdce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/umhlanga_sunrise_4k.hdr using Guid(f514e912e20a3764496f3f0ced5fcdce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1188649ec2357c2c3b894385a49f753') in 0.212419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/tire-brakes.mat
+  artifactKey: Guid(01a4b12ac0f1dde4590ae04b70e27cfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/tire-brakes.mat using Guid(01a4b12ac0f1dde4590ae04b70e27cfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '513ecef58589e25eb9cc19547f06f89d') in 0.032858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/date palm leaf_s.png
+  artifactKey: Guid(afaa22d1f02d1e14fb222cc41f5c403a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/date palm leaf_s.png using Guid(afaa22d1f02d1e14fb222cc41f5c403a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebcf62ea237d5999af02463046c73903') in 0.068352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Car/FBX_Car_BoostBuggyNeonGreen.fbx
+  artifactKey: Guid(31afe27b06d4fdb4c95a0061da1ced2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/FBX_Car_BoostBuggyNeonGreen.fbx using Guid(31afe27b06d4fdb4c95a0061da1ced2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16ab92b40e4f688ed90dfd712c03c1a3') in 0.197825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 2.prefab
+  artifactKey: Guid(f78f74ffdc7f6c84bbc45b41161fb58f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 2.prefab using Guid(f78f74ffdc7f6c84bbc45b41161fb58f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7839737bbc2299033be4d2b01d06dbf') in 0.024707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Textures/Colorscheme World.png
+  artifactKey: Guid(c975dc85e64790c40b2561cb2c3ba471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Textures/Colorscheme World.png using Guid(c975dc85e64790c40b2561cb2c3ba471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '831c958e1e68c854bd554c7d81718aab') in 0.054354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Presets/Defaults/SSSSettings_Default.preset
+  artifactKey: Guid(8fa3055e2a1363246838debd20206d37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Presets/Defaults/SSSSettings_Default.preset using Guid(8fa3055e2a1363246838debd20206d37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '633e3ebbc13da5ee3f76dc6422db0fdd') in 0.021081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/materials_textures/body-matte-parts.mat
+  artifactKey: Guid(0600b60f2501f9f4680e105c3725b63b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/materials_textures/body-matte-parts.mat using Guid(0600b60f2501f9f4680e105c3725b63b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f2a24b1b7a39286d2153eb153a34236') in 0.033235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Presets/AudioCompressedInMemory.preset
+  artifactKey: Guid(e18fd6ecd9cdb524ca99844f39b9d9ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Presets/AudioCompressedInMemory.preset using Guid(e18fd6ecd9cdb524ca99844f39b9d9ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eebd52e7a994698f00897d199d22e15d') in 0.021695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Bridge 2.prefab
+  artifactKey: Guid(25e5c01865542e449bf00fcc40da6a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Bridge 2.prefab using Guid(25e5c01865542e449bf00fcc40da6a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be20d5920bd687e6439eb94e725de0da') in 0.023840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/wheel.fbx
+  artifactKey: Guid(7fc5e78f5bf33a04e9490bb5454fc968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/wheel.fbx using Guid(7fc5e78f5bf33a04e9490bb5454fc968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f27fca302362bbef67fce4b728a9d3c3') in 0.098886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/mirrors.mat
+  artifactKey: Guid(47622a354c23ce9418f52690e264f4bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/mirrors.mat using Guid(47622a354c23ce9418f52690e264f4bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f28d8fb946ca11c5799bef892975b319') in 0.021599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Prefabs/rock1_d.prefab
+  artifactKey: Guid(ff41510437ed85642ac2cfbc1fcb58f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Prefabs/rock1_d.prefab using Guid(ff41510437ed85642ac2cfbc1fcb58f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b03a7b109710a8cd9e6889a2fba5de6d') in 0.030621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Presets/Defaults/AlbedoTexture_Default.preset
+  artifactKey: Guid(7a99f8aa944efe94cb9bd74562b7d5f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Presets/Defaults/AlbedoTexture_Default.preset using Guid(7a99f8aa944efe94cb9bd74562b7d5f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de0d70e2e7dbd96af105e1aa4cbaa2d5') in 0.021911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Road S-Curve.prefab
+  artifactKey: Guid(70accd32f42b80b40a1a83ef93f9b293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Road S-Curve.prefab using Guid(70accd32f42b80b40a1a83ef93f9b293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26848330c14d036ac268116ff43ae046') in 0.043789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Curve 2.prefab
+  artifactKey: Guid(d2b4c92a59cf1a441bf008ca26395efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Curve 2.prefab using Guid(d2b4c92a59cf1a441bf008ca26395efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ee6bb07a31433e8178d4ff9624d4a2e') in 0.027755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.002.dae
+  artifactKey: Guid(e9374469e886d8649b6b92c468834057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.002.dae using Guid(e9374469e886d8649b6b92c468834057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ea67332af83e9bbb465465ed3d5b5fb') in 0.040421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Car/materialscar/Glass.mat
+  artifactKey: Guid(332ecee22002df24fb8beabf910a3a13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/materialscar/Glass.mat using Guid(332ecee22002df24fb8beabf910a3a13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '247ddd27b2060a2bedd988c5be5c0313') in 0.028773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Curve.prefab
+  artifactKey: Guid(12f915ef0d4a22244967366bf9764406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Curve.prefab using Guid(12f915ef0d4a22244967366bf9764406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ec98fbb7c45c51a4271643d3a17c3a3') in 0.028515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Car/materialscar/Blinker.mat
+  artifactKey: Guid(ac50d227c4f7387409ebc230cdcab516) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/materialscar/Blinker.mat using Guid(ac50d227c4f7387409ebc230cdcab516) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd75a322a49434c0aa57e0f93678043c2') in 0.023149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/desert-cliff.terrainlayer
+  artifactKey: Guid(beec8f65b7662b14ea8758718db35b2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/desert-cliff.terrainlayer using Guid(beec8f65b7662b14ea8758718db35b2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fd011ded27131d5dd2868cb68258505') in 0.032798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 1.dae
+  artifactKey: Guid(18532e9f65bee84488936fca5f9fe8c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 1.dae using Guid(18532e9f65bee84488936fca5f9fe8c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd73c05d8e3f8dd22210a099bb632a6e') in 0.036124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/desert-cliff-smoothness.png
+  artifactKey: Guid(dd6dfaae926f46c48949fbd4ea712820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/desert-cliff-smoothness.png using Guid(dd6dfaae926f46c48949fbd4ea712820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7e0bac58c7f06aca380caffc2b45106') in 0.054572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Car/Cars/Sedan-car-01/rim.mat
+  artifactKey: Guid(20b646e6f4f45b04aaad9e17f228dac3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Car/Cars/Sedan-car-01/rim.mat using Guid(20b646e6f4f45b04aaad9e17f228dac3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6995b985fd1b7b5f40b000345a280bf7') in 0.021193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scripts/TyreRotation.cs
+  artifactKey: Guid(e123fe8dca9bc3b458c8dce263fa67d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/TyreRotation.cs using Guid(e123fe8dca9bc3b458c8dce263fa67d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a67aa5d5921e488886af13ef4ccf13f') in 0.018788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/CaliperScript.cs
+  artifactKey: Guid(bdfa9e79d05064e4eb3406f8a1e8ad55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CaliperScript.cs using Guid(bdfa9e79d05064e4eb3406f8a1e8ad55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e3b5299122f73e3b9f016f0cad36833') in 0.022818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(90d83a32b5227914ebc5daf65002ac40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png using Guid(90d83a32b5227914ebc5daf65002ac40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b61adb6b34e0c81c03f255853b548f97') in 0.034413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Meshes/cliff.fbx
+  artifactKey: Guid(6fbd6a7af6e737145a8ac95bb4d54086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Meshes/cliff.fbx using Guid(6fbd6a7af6e737145a8ac95bb4d54086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3efa28e19ca3351a84e436e79b5346e0') in 0.053186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.867284 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Road Join SIngleLane.dae
+  artifactKey: Guid(b85b6366741d14e4a96828e1afad90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Road Join SIngleLane.dae using Guid(b85b6366741d14e4a96828e1afad90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c2f0abc5d1e2c014cd3377bc1f5f97') in 0.320127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Terrain/New Terrain.asset
+  artifactKey: Guid(75979524ddd8f7d4597d81e0391afc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/New Terrain.asset using Guid(75979524ddd8f7d4597d81e0391afc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc51637f33af23a6ebfe4c1e2486516') in 0.018554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Road.dae
+  artifactKey: Guid(0c21f7d1828800d44a5452b9bca476f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Road.dae using Guid(0c21f7d1828800d44a5452b9bca476f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838cd8b6bc05f66856e76369334d995b') in 0.031249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Presets/AudioCompressedInMemory.preset
+  artifactKey: Guid(e18fd6ecd9cdb524ca99844f39b9d9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Presets/AudioCompressedInMemory.preset using Guid(e18fd6ecd9cdb524ca99844f39b9d9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd5b69f608f95b80268ba536d328f72') in 0.014374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.050260 seconds.
+  path: Assets/Scripts/CarControllerScript.cs
+  artifactKey: Guid(b9f820c79d984c546b55cf08589fc0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarControllerScript.cs using Guid(b9f820c79d984c546b55cf08589fc0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4732511f7c7171c4a42927d019dadf52') in 0.008724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007056 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/Desertsand_Normal.png
+  artifactKey: Guid(18783c9e6888acf4ab6f2b475c769af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/Terrain_textures/Desertsand_Normal.png using Guid(18783c9e6888acf4ab6f2b475c769af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da7c96be60aff3aab32187992e466bd') in 0.157613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.551693 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Settings
+  artifactKey: Guid(006b6043041431d4d909ad5f958582cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Settings using Guid(006b6043041431d4d909ad5f958582cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075cb54e8908505574f71d9bb34487b6') in 0.012184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.143970 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Settings/HDRenderPipelineAsset.asset
+  artifactKey: Guid(3927e36d6d8a64b4ebb7c2d46f265d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Settings/HDRenderPipelineAsset.asset using Guid(3927e36d6d8a64b4ebb7c2d46f265d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc6a76f413b56ba1e8bca5a72717bf5') in 0.012336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Settings/VolumeSettings.asset
+  artifactKey: Guid(dab0766de4a4b5349b80ce1a86555414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Settings/VolumeSettings.asset using Guid(dab0766de4a4b5349b80ce1a86555414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1e4194c1b8836247090b21eafe47cb') in 0.014250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Settings/VolumeSettings_Baking.asset
+  artifactKey: Guid(112daeb737097bd42b9690c053885531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Settings/VolumeSettings_Baking.asset using Guid(112daeb737097bd42b9690c053885531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282bf8a57332bbabdf0d47b421105081') in 0.012346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.693754 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Scripts
+  artifactKey: Guid(22a92dda8b126ff4796f9e84ae1c8871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Scripts using Guid(22a92dda8b126ff4796f9e84ae1c8871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb3cf3e26c64cd8216327c5b8ce3328') in 0.012082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.921442 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(e8a636f62116c0a40bbfefdf876d4608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Scripts/SimpleCameraController.cs using Guid(e8a636f62116c0a40bbfefdf876d4608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f70f32d2a80dbc63d8e172db4c64df0') in 0.009974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.404321 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props
+  artifactKey: Guid(fec5d47a2ec2fe54687546881a56fe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props using Guid(fec5d47a2ec2fe54687546881a56fe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b5cacdec3da86d82b2af6532b8e43e') in 0.012187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.257156 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures
+  artifactKey: Guid(5086be39386326844a76eab6e8c30b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures using Guid(5086be39386326844a76eab6e8c30b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21b7bc58ead408d13f75a7741f80beb') in 0.010404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.507929 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Meshes
+  artifactKey: Guid(9200cad6a8d42064fa64792458642f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Meshes using Guid(9200cad6a8d42064fa64792458642f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e441c818a90bca340012005e0a666c6') in 0.009182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.662176 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/cliff.mat
+  artifactKey: Guid(b8a1503afd257a9498a086443ece3b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/cliff.mat using Guid(b8a1503afd257a9498a086443ece3b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b412bf51a102b680d64faf07b33f3682') in 0.453177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/kloofendal_48d_partly_cloudy_4k.hdr
+  artifactKey: Guid(2c71e016f58a6e344a152949b2a99e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Materials and Textures/kloofendal_48d_partly_cloudy_4k.hdr using Guid(2c71e016f58a6e344a152949b2a99e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bcef49dbf66bf1148eae4aea3de17a') in 0.157906 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 26.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (148.6 KB). Loaded Objects now: 3762.
+Memory consumption went from 140.8 MB to 140.6 MB.
+Total: 37.072600 ms (FindLiveObjects: 0.530500 ms CreateObjectMapping: 0.120200 ms MarkObjects: 36.228000 ms  DeleteObjects: 0.192700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 479.333771 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Meshes/cliff.fbx
+  artifactKey: Guid(6fbd6a7af6e737145a8ac95bb4d54086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Meshes/cliff.fbx using Guid(6fbd6a7af6e737145a8ac95bb4d54086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bd7d4560fa5bdd11f3968560e6e583') in 0.082714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Meshes/rock1_a.FBX
+  artifactKey: Guid(635d01881084cb545bf305255bc2b4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Meshes/rock1_a.FBX using Guid(635d01881084cb545bf305255bc2b4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77a972d0197d911273e8242dcc6ae45') in 0.050399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Meshes/rock1_d.FBX
+  artifactKey: Guid(ff345eb821740b944a74f1037a4004a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Meshes/rock1_d.FBX using Guid(ff345eb821740b944a74f1037a4004a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba60488a04294fda94642ebdedaf725') in 0.048733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Meshes/rock1_c.FBX
+  artifactKey: Guid(5a88a0b58af7ee140838ea6edfdc9585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Meshes/rock1_c.FBX using Guid(5a88a0b58af7ee140838ea6edfdc9585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db335f116acd9625dbe1fed43391354') in 0.056756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.993840 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Prefabs
+  artifactKey: Guid(a3874e018e706fe458c2075b75a68fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Prefabs using Guid(a3874e018e706fe458c2075b75a68fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a04054ad6cf16aecf172ac06d35df67') in 0.009589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042168 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Prefabs/cliff.prefab
+  artifactKey: Guid(d65cea9e9c9104045bf93360db6bfc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Prefabs/cliff.prefab using Guid(d65cea9e9c9104045bf93360db6bfc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ebdc7783d95e726aae19750e21ec8b') in 0.037089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Prefabs/rock1_b.prefab
+  artifactKey: Guid(09ba3283419aa3f4fb22189f4f57c48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Prefabs/rock1_b.prefab using Guid(09ba3283419aa3f4fb22189f4f57c48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed2860510a4b54212cada4e8d2c7b8f') in 0.051217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Prefabs/rock1_c.prefab
+  artifactKey: Guid(75dd5ac51031f524bbeeecc79e2fd8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Prefabs/rock1_c.prefab using Guid(75dd5ac51031f524bbeeecc79e2fd8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec3b5a2a1f8afdcf0343c0b92e96cc8') in 0.041389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Props/Prefabs/road.prefab
+  artifactKey: Guid(f374b35168ad66c4ea634f7c80b65625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Props/Prefabs/road.prefab using Guid(f374b35168ad66c4ea634f7c80b65625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3edd906f4dbf943305e6e6c5d26b9a') in 0.038341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.184043 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Presets
+  artifactKey: Guid(2754f8cebe196654cbc72d1885ebcf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Presets using Guid(2754f8cebe196654cbc72d1885ebcf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376dc3cc4a602cd5197439a3ff36233b') in 0.007796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048691 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Presets/HDRTexture.preset
+  artifactKey: Guid(78830bb1431cab940b74be615e2a739f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Presets/HDRTexture.preset using Guid(78830bb1431cab940b74be615e2a739f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d94f9f5dcf74f278f75c76e1fad95e') in 0.012896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.503631 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Presets/Defaults
+  artifactKey: Guid(62d01720aebe09744845cc69fc236e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Presets/Defaults using Guid(62d01720aebe09744845cc69fc236e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfc36bbda9c1148698aa1d5b9f6c64a') in 0.010514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037583 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Presets/Defaults/AlbedoTexture_Default.preset
+  artifactKey: Guid(7a99f8aa944efe94cb9bd74562b7d5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Presets/Defaults/AlbedoTexture_Default.preset using Guid(7a99f8aa944efe94cb9bd74562b7d5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a489f3668893419181778d7e916d1d2d') in 0.013057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Final Form Studio/Cliff-scene/Presets/Defaults/DirectionalLight_Default.preset
+  artifactKey: Guid(c1cf8506f04ef2c4a88b64b6c4202eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Form Studio/Cliff-scene/Presets/Defaults/DirectionalLight_Default.preset using Guid(c1cf8506f04ef2c4a88b64b6c4202eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed0b835fe1a1e782324194de869bd86') in 0.015311 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005781 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.866 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2869ms)
+		BeginReloadAssembly (1111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (476ms)
+		EndReloadAssembly (1571ms)
+			LoadAssemblies (619ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (526ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (678ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (513ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (151.3 KB). Loaded Objects now: 3775.
+Memory consumption went from 204.5 MB to 204.4 MB.
+Total: 8.497200 ms (FindLiveObjects: 0.617400 ms CreateObjectMapping: 0.847100 ms MarkObjects: 6.706700 ms  DeleteObjects: 0.324000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 277.085047 seconds.
+  path: Assets/NewUnlitShader.shader
+  artifactKey: Guid(c41445b7dd47a584b9a9f7468ed60322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewUnlitShader.shader using Guid(c41445b7dd47a584b9a9f7468ed60322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9622a9ffbd58e3a6fda21551c979a40') in 0.045643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.757612 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd
+  artifactKey: Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd using Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8201d79be9fc423d6f7f3d6d815a96') in 0.156091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
+  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03fa845761212c2e46fac3b4343677a') in 0.046773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop_Light.psd
+  artifactKey: Guid(ed041e68439749a69d0efa0e3d896c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop_Light.psd using Guid(ed041e68439749a69d0efa0e3d896c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774935438ba6521b9e930de97257dbbc') in 0.103085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd
+  artifactKey: Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd using Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb69f1da9fc996d9706563da5408834d') in 0.033161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd
+  artifactKey: Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd using Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17bb311e1048bbab1128cbcad5ba461') in 0.035488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png
+  artifactKey: Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png using Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b193e266fb87e23a30ba80080d8c2b') in 0.109353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft_Light.psd
+  artifactKey: Guid(12736c98af174f91827a26b66d2b01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft_Light.psd using Guid(12736c98af174f91827a26b66d2b01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381d7f72ec107bd8d5e9ba710f9d18cb') in 0.033402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop.psd
+  artifactKey: Guid(48d034c499ee4697af9dd6e327110249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop.psd using Guid(48d034c499ee4697af9dd6e327110249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ac413dd7cf2da7ea3f4cc05686200f') in 0.036721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified.psd
+  artifactKey: Guid(92027f7f8cfc4feaa477da0dc38d3d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified.psd using Guid(92027f7f8cfc4feaa477da0dc38d3d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eab5b378584069bfa2518cd079c6d9') in 0.036032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight.psd
+  artifactKey: Guid(342a0f8aca7f4f0691338912faec0494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight.psd using Guid(342a0f8aca7f4f0691338912faec0494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612ee554d8d56aec0672e3facb773a7e') in 0.034426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd
+  artifactKey: Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd using Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215b1d54a9f89e17ffcf8907f0a5b953') in 0.036374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd
+  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe7d1f075d98d33dc2c1ed45056eb5a') in 0.031030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.740671 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted.png
+  artifactKey: Guid(881798b77426a8f47b533dcc4767e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted.png using Guid(881798b77426a8f47b533dcc4767e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74f25948f99de3ed49b31593186d030') in 0.035896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.890739 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/SectionHeader_Light.psd
+  artifactKey: Guid(e3b0f810fdea84e40ab4ba20f256f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/SectionHeader_Light.psd using Guid(e3b0f810fdea84e40ab4ba20f256f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e5a1de1d5823271e81cc3679775429') in 0.030691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.301256 seconds.
+  path: Assets/New Flare.flare
+  artifactKey: Guid(622c8b4255f79a5499e0e9105a52110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Flare.flare using Guid(622c8b4255f79a5499e0e9105a52110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcc1ed201b71437dea6aafc8cdbff8a') in 0.019509 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005842 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.723 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1724ms)
+		BeginReloadAssembly (307ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1255ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (474ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (151.3 KB). Loaded Objects now: 3796.
+Memory consumption went from 204.6 MB to 204.5 MB.
+Total: 4.282700 ms (FindLiveObjects: 0.388700 ms CreateObjectMapping: 0.122500 ms MarkObjects: 3.611700 ms  DeleteObjects: 0.157800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005851 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1427ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1045ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (151.3 KB). Loaded Objects now: 3811.
+Memory consumption went from 204.6 MB to 204.5 MB.
+Total: 3.820900 ms (FindLiveObjects: 0.336300 ms CreateObjectMapping: 0.108000 ms MarkObjects: 3.230200 ms  DeleteObjects: 0.145000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006027 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.553 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1555ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1195ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (487ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (151.2 KB). Loaded Objects now: 3826.
+Memory consumption went from 204.6 MB to 204.5 MB.
+Total: 5.671100 ms (FindLiveObjects: 0.671100 ms CreateObjectMapping: 0.261800 ms MarkObjects: 4.573900 ms  DeleteObjects: 0.163000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 352.889255 seconds.
+  path: Assets/NewAudioMixer.mixer
+  artifactKey: Guid(f6597973d8cd0544995009b049a35746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAudioMixer.mixer using Guid(f6597973d8cd0544995009b049a35746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb38636b5b6b6d6421e5ce7b993e1b1') in 0.030644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 266.629439 seconds.
+  path: Assets/NewAudioMixer 1.mixer
+  artifactKey: Guid(41d98043562bff246b0bca5aa2b01d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAudioMixer 1.mixer using Guid(41d98043562bff246b0bca5aa2b01d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c172c50048320dd82c963f180f1bdd') in 0.011982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.252254 seconds.
+  path: Assets/NewAudioMixer.mixer
+  artifactKey: Guid(f6597973d8cd0544995009b049a35746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAudioMixer.mixer using Guid(f6597973d8cd0544995009b049a35746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bc45fb56a839bec7801867260cf5e7') in 0.004584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.857575 seconds.
+  path: Assets/NewAudioMixer 1.mixer
+  artifactKey: Guid(41d98043562bff246b0bca5aa2b01d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAudioMixer 1.mixer using Guid(41d98043562bff246b0bca5aa2b01d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1818b9a6f969f78c6849a134757c53') in 0.004412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.187051 seconds.
+  path: Assets/ambiance sound.mp3
+  artifactKey: Guid(5aa2826eac66be94580c93d0fb0c8c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ambiance sound.mp3 using Guid(5aa2826eac66be94580c93d0fb0c8c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade22a67d20a3dea9f897fca1893d525') in 0.227524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.908855 seconds.
+  path: Assets/BossBattle_0050_BPM140_Cm_Goddess-of-Fate_L.mp3
+  artifactKey: Guid(01df2cd7d78aeda4d894663ebe7b476c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossBattle_0050_BPM140_Cm_Goddess-of-Fate_L.mp3 using Guid(01df2cd7d78aeda4d894663ebe7b476c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3169fb6d889a1fed070e3b7a25b3ca78') in 0.028576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.972760 seconds.
+  path: Assets/NewAudioMixer 1.mixer
+  artifactKey: Guid(41d98043562bff246b0bca5aa2b01d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAudioMixer 1.mixer using Guid(41d98043562bff246b0bca5aa2b01d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67be6083fe349ad2f09034e4509dcd96') in 0.004804 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005591 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.059 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2061ms)
+		BeginReloadAssembly (304ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (1593ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (599ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (642ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (458ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (151.3 KB). Loaded Objects now: 3843.
+Memory consumption went from 204.7 MB to 204.6 MB.
+Total: 6.598800 ms (FindLiveObjects: 0.741800 ms CreateObjectMapping: 0.573900 ms MarkObjects: 5.053200 ms  DeleteObjects: 0.227200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008823 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.976 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1977ms)
+		BeginReloadAssembly (263ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (1674ms)
-			LoadAssemblies (243ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1512ms)
+			LoadAssemblies (191ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (584ms)
+			SetupTypeCache (536ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (730ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (640ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (471ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (151.3 KB). Loaded Objects now: 3858.
+Memory consumption went from 204.7 MB to 204.6 MB.
+Total: 10.419300 ms (FindLiveObjects: 0.714600 ms CreateObjectMapping: 0.424300 ms MarkObjects: 9.027400 ms  DeleteObjects: 0.250500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006078 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.758 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1759ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1319ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (613ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (468ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (151.3 KB). Loaded Objects now: 3873.
+Memory consumption went from 204.7 MB to 204.6 MB.
+Total: 6.076500 ms (FindLiveObjects: 0.437300 ms CreateObjectMapping: 0.204100 ms MarkObjects: 5.183200 ms  DeleteObjects: 0.250000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2992.950974 seconds.
+  path: Assets/NewAudioMixer.mixer
+  artifactKey: Guid(f6597973d8cd0544995009b049a35746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAudioMixer.mixer using Guid(f6597973d8cd0544995009b049a35746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1eb684b72120dda9eff89bd17af5730') in 0.269126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.060710 seconds.
+  path: Assets/NewAudioMixer.mixer
+  artifactKey: Guid(f6597973d8cd0544995009b049a35746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAudioMixer.mixer using Guid(f6597973d8cd0544995009b049a35746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a63eae6fb63c50c61844afc7e75593') in 0.006910 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006564 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.358 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2361ms)
+		BeginReloadAssembly (513ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (163ms)
+		EndReloadAssembly (1644ms)
+			LoadAssemblies (265ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (570ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (705ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (531ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (151.3 KB). Loaded Objects now: 3888.
+Memory consumption went from 204.8 MB to 204.6 MB.
+Total: 8.162700 ms (FindLiveObjects: 0.752000 ms CreateObjectMapping: 0.625000 ms MarkObjects: 6.440100 ms  DeleteObjects: 0.343600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007494 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.649 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1650ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1264ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (453ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (522ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (557ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (151.4 KB). Loaded Objects now: 3743.
-Memory consumption went from 203.9 MB to 203.7 MB.
-Total: 6.116500 ms (FindLiveObjects: 0.451400 ms CreateObjectMapping: 0.159600 ms MarkObjects: 5.320500 ms  DeleteObjects: 0.183100 ms)
+Unloading 18 unused Assets / (151.4 KB). Loaded Objects now: 3903.
+Memory consumption went from 204.8 MB to 204.6 MB.
+Total: 7.605500 ms (FindLiveObjects: 0.850800 ms CreateObjectMapping: 0.854300 ms MarkObjects: 5.694700 ms  DeleteObjects: 0.203100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -244,64 +2189,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006495 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Harshid\CarParking\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.178 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2179ms)
-		BeginReloadAssembly (318ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1641ms)
-			LoadAssemblies (242ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (588ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (676ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (495ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (151.2 KB). Loaded Objects now: 3758.
-Memory consumption went from 203.9 MB to 203.7 MB.
-Total: 8.118300 ms (FindLiveObjects: 0.610000 ms CreateObjectMapping: 0.410800 ms MarkObjects: 6.800300 ms  DeleteObjects: 0.294700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

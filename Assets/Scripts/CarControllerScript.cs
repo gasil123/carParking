@@ -4,10 +4,6 @@ using System.Collections.Generic;
 
 public class CarControllerScript : MonoBehaviour
 {
-
-    //public List<AxleInfo> axleInfos; // the information about each individual axle
-    // public float maxMotorTorque; // maximum torque the motor can apply to wheel
-    // public float maxSteeringAngle; // maximum steer angle the wheel can have
     public Transform com;
     Rigidbody rb;
 
@@ -55,7 +51,6 @@ public class CarControllerScript : MonoBehaviour
       
             else if (isbreaking)
             {
-                
                 Wh.brakeTorque = maxBrakeTorque;
             }
             else
@@ -80,7 +75,15 @@ public class CarControllerScript : MonoBehaviour
             Debug.Log("speed is"+Wh.motorTorque);
         }
         foreach (WheelCollider Sh in Steerwheels)
-        { 
+        {
+            if (isbreaking)
+            {
+                Sh.brakeTorque = maxBrakeTorque;
+            }
+            else
+            {
+                Sh.brakeTorque = 0;
+            }
             if (Input.GetKey(KeyCode.A))
             {
                 Sh.steerAngle = -maxSteeringAngle;
@@ -90,9 +93,9 @@ public class CarControllerScript : MonoBehaviour
                 Sh.steerAngle = maxSteeringAngle;
             }
             else
-            {   
+            {
                 Sh.steerAngle = 0;
-            }
+            } 
         }
     }
 }
