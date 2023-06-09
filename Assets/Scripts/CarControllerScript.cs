@@ -7,7 +7,6 @@ public class CarControllerScript : MonoBehaviour
     public Transform com;
     Rigidbody rb;
 
-  
     public List<WheelCollider> Motorwheels;
     public List<WheelCollider> Steerwheels;
     public float AccelerationSpeed;
@@ -15,8 +14,6 @@ public class CarControllerScript : MonoBehaviour
     public float maxBrakeTorque;
     public float dragSensitivity;
     public float maxSteeringAngle = 30f;
-
-  
 
     public void Start()
     {
@@ -32,11 +29,9 @@ public class CarControllerScript : MonoBehaviour
         //bool rightStreer = ;
         bool isbreaking = Input.GetKey(KeyCode.Space);
 
-       
-
         foreach (WheelCollider Wh in Motorwheels)
         {
-
+             
             if (isAcceleration && Wh.rpm < maxMotorTorque && !isbreaking)
             {
                 rb.drag = 0;
@@ -72,7 +67,7 @@ public class CarControllerScript : MonoBehaviour
             { 
                 Wh.brakeTorque = 0;
             }
-            Debug.Log("speed is"+Wh.motorTorque);
+           // Debug.Log("speed is"+Wh.motorTorque);
         }
         foreach (WheelCollider Sh in Steerwheels)
         {
