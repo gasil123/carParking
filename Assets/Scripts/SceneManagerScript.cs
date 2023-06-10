@@ -10,12 +10,10 @@ public class SceneManagerScript : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
-
     public void ManinScene()
     {
        SceneManager.LoadScene("0");
     }
-
     public void QuitGame()
     {
         Application.Quit();

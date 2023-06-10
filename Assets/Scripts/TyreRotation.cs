@@ -13,5 +13,6 @@ public class TyreRotation : MonoBehaviour
 
         // Apply the rotation and position to the tire mesh
         transform.rotation = rotation;
-        transform.position = position;    }
+        transform.position = position;    
+    }
 }

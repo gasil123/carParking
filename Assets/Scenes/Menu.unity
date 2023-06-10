@@ -3890,6 +3890,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9f820c79d984c546b55cf08589fc0d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ForwarddButton: {fileID: 0}
+  ReverseButton: {fileID: 0}
+  RightButton: {fileID: 0}
+  LeftButton: {fileID: 0}
   com: {fileID: 1933559919}
   Motorwheels:
   - {fileID: 1823639881}
