@@ -3890,22 +3890,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9f820c79d984c546b55cf08589fc0d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ForwarddButton: {fileID: 0}
-  ReverseButton: {fileID: 0}
-  RightButton: {fileID: 0}
-  LeftButton: {fileID: 0}
-  com: {fileID: 1933559919}
-  Motorwheels:
-  - {fileID: 1823639881}
-  - {fileID: 641802514}
-  Steerwheels:
-  - {fileID: 1097845739}
-  - {fileID: 1285428910}
-  AccelerationSpeed: 50
-  maxMotorTorque: 1000
-  maxBrakeTorque: 5000
-  dragSensitivity: 0.1
-  maxSteeringAngle: 20
+  acceralaration: 800
+  breaking: 0
+  steeringAngle: 30
+  smokeParticles: []
+  ForwardButton:
+    m_key: 
+    value: 0
+  COM: {fileID: 0}
+  FRcollider: {fileID: 0}
+  FLcollider: {fileID: 0}
+  RRcollider: {fileID: 0}
+  RLcollider: {fileID: 0}
 --- !u!95 &1223472314
 Animator:
   serializedVersion: 5
