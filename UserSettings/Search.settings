@@ -13,7 +13,7 @@ scopes = {
 	"last_search.DA949528" = "error"
 	"OpenInspectorPreview.DA949528" = "0"
 	"currentGroup.DA949528" = "_group_provider_Resources"
-	"last_search.9D2BC55F" = "bloom"
+	"last_search.9D2BC55F" = ""
 	"OpenInspectorPreview.9D2BC55F" = "0"
 	"currentGroup.9D2BC55F" = "all"
 }
@@ -62,6 +62,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"j"
 	"b"
 	"SE"
 	"S"

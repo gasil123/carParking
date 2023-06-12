@@ -386,6 +386,7 @@
 "Assets/Imported Assets/Universal Mobile Controller/Scripts/ScriptableObjectScripts/ButtonsData.cs"
 "Assets/Imported Assets/Universal Mobile Controller/Scripts/Touch Pad/SpecialTouchPad.cs"
 "Assets/Scripts/CarControllerScript.cs"
+"Assets/Scripts/CarTimerScript.cs"
 "Assets/Scripts/Car_Carousel.cs"
 "Assets/Scripts/destroy_checkpoint_sphere.cs"
 "Assets/Scripts/GameManager.cs"

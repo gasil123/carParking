@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+
+// to swich cameras in the main menu when settings icon is pressed 
 public class Options_menu_Script : MonoBehaviour
 {
     public CinemachineVirtualCamera cam1;

@@ -6,12 +6,13 @@ public class spehere_collitionDetector_Script : MonoBehaviour
 {
     public List<GameObject> sphere_checkpoints = new List<GameObject>();
     GameObject visibleSphere;
-    public static int count = 0;
+    public static int count;
     public GameObject DirectionArrow;
 
 
     void Start()
     {
+        count = 0;
         sphere_checkpoints[count].SetActive(true); ;
     }
     void Update()

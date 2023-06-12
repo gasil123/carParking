@@ -8,6 +8,7 @@ public class Game_Ui_PauseMenu : MonoBehaviour
 
     public GameObject pausemenu;
     public GameObject pauseButton;
+    public GameObject controlButtonsUi;
 
     public void PauseMenuActiveDeactive()
     {
@@ -19,12 +20,14 @@ public class Game_Ui_PauseMenu : MonoBehaviour
             
             pausemenu.SetActive(true);
             pauseButton.SetActive(false);
+            controlButtonsUi.SetActive(false);
         }
         if (!isPauseMenu)
         {
             Time.timeScale = 1;
             pausemenu.SetActive(false);
             pauseButton.SetActive(true);
+            controlButtonsUi.SetActive(true);
         }
     }
    

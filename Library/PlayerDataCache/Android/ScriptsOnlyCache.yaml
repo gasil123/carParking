@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CarControllerScript
+    - CarTimerScript
     - Car_Carousel
     - GameManager
     - Game_Ui_PauseMenu
@@ -34,8 +35,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -105,11 +108,41 @@ ScriptsOnlyBuild:
     fullTypeName: Options_menu_Script
     methodName: changeCamPriority
   - assembly: Assembly-CSharp
-    fullTypeName: Game_Ui_PauseMenu
-    methodName: PauseMenuActiveDeactive
+    fullTypeName: SceneManagerScript
+    methodName: ManinScene
   - assembly: Assembly-CSharp
     fullTypeName: Game_Ui_PauseMenu
     methodName: PauseMenuActiveDeactive
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagerScript
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagerScript
+    methodName: ManinScene
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagerScript
+    methodName: RestartLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_Ui_PauseMenu
+    methodName: PauseMenuActiveDeactive
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagerScript
+    methodName: ManinScene
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagerScript
+    methodName: RestartLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagerScript
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagerScript
+    methodName: RestartLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagerScript
+    methodName: NextScene
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManagerScript
+    methodName: NextScene
   sceneClasses:
     Assets/Scenes/GameScene.unity:
     - Class: 1
@@ -203,7 +236,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7270}
     - Class: 114
+      Script: {instanceID: 8214}
+    - Class: 114
       Script: {instanceID: 8258}
+    - Class: 114
+      Script: {instanceID: 224434}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -326,8 +363,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6396}
     - Class: 114
-      Script: {instanceID: 6568}
-    - Class: 114
       Script: {instanceID: 6790}
     - Class: 114
       Script: {instanceID: 7112}
@@ -336,13 +371,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8214}
     - Class: 114
-      Script: {instanceID: 42510}
+      Script: {instanceID: 43264}
     - Class: 114
-      Script: {instanceID: 42518}
+      Script: {instanceID: 669532}
     - Class: 114
-      Script: {instanceID: 42520}
+      Script: {instanceID: 669534}
     - Class: 114
-      Script: {instanceID: 42522}
+      Script: {instanceID: 669536}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1012,7 +1047,7 @@ ScriptsOnlyBuild:
     className: TextMeshPro
   - hash:
       serializedVersion: 2
-      Hash: 32b2e030a406301184d261966e0be030
+      Hash: 1e735e0e66c488c34b6116c49a104428
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Game_Ui_PauseMenu
@@ -1474,7 +1509,7 @@ ScriptsOnlyBuild:
     className: ExplosionFireAndDebris
   - hash:
       serializedVersion: 2
-      Hash: 7237eadfbe754be17e48f26d76c443d3
+      Hash: 5075199706a86919805ff8ff161ff479
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: levelWon_Script
@@ -2270,6 +2305,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e633fd0f76ba4dc6b540127a480f2103
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarTimerScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
